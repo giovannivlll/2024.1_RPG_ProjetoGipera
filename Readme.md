@@ -1,39 +1,51 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto). !!** 
+# 2025.1_RPG_ProjetoGipera
 
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2024.1_PFE1_ProjetoPandora!!**
- 
- (Apague essa seção)
- 
-# NomedoProjeto
-
-**Número do Grupo**: XX <br>
+**NomedoProjeto**: Projeto Gipera  
+**Número do Grupo**: RPG <br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula       | Aluno                                               |
+|-----------------|------------------------------------------------------|
+| -               | Pedro Samary                                         |
+| 202408320949    | Giovanni Gonçalves Villela                          |
+| 202401500445    | Rafael Mencari Cardoso Duarte de Almeida            |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+O projeto **Gipera** propõe uma plataforma web voltada para empresas que desejam organizar eventos corporativos, sejam internos ou abertos ao público. A ferramenta permitirá o cadastro de eventos, gerenciamento de participantes, emissão de certificados e acesso a dados analíticos para melhor controle e tomada de decisões.  
+
+A inspiração baseia-se em plataformas como **ingresso.com**, mas com um foco voltado ao ambiente corporativo e funcionalidades administrativas específicas.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+> *As imagens serão adicionadas após o desenvolvimento da interface.*
+
+1. Tela de cadastro de empresas  
+2. Painel administrativo com lista de eventos  
+3. Visualização pública de um evento  
+4. Relatórios analíticos com gráficos  
+5. Exportação de lista de presença  
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+**Linguagens**: JavaScript, HTML, CSS<br>
+**Tecnologias**: MySQL<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+### Pré-requisitos
+- Node.js instalado
+- Banco de dados MySQL ativo
+- VSCode instalado
 
-## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto final.
+### Comandos
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/2025.1_RPG_ProjetoGipera.git
+
+# Acesse a pasta do projeto
+cd 2025.1_RPG_ProjetoGipera
+
+# Instale as dependências (caso tenha backend com npm)
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
+
